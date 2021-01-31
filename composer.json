@@ -1,0 +1,29 @@
+{
+    "name": "gordyush/records",
+    "description": "Package for listening to call records",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Olga Gordyushina",
+            "email": "o.gordyushina@smter.ru",
+            "role": "Developer"
+        }
+    ],
+     "minimum-stability": "stable",
+     "require": {
+        "illuminate/support": "^8.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gordyush\\Records\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gordyush\\Records\\RecordsServiceProvider"
+            ]
+        }
+    }
+}
