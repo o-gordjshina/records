@@ -3,6 +3,7 @@
     "description": "Package for listening to call records",
     "type": "library",
     "version": "1.0.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Olga Gordyushina",
